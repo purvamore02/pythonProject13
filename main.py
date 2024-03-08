@@ -3,6 +3,8 @@ import pandas as pd
 import time
 import matplotlib.pyplot as plt
 import seaborn as sns
+import sys
+print(sys.path)
 
 df = pd.read_csv("startup_cleaned.csv")
 st.set_page_config(layout='wide', page_title='Startup Analysis')
