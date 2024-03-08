@@ -141,7 +141,7 @@ def overall():
 
 
     # bar graph
-    st.title('Top Startup Year-Wise Overall')
+    st.title('Top Startup Year Overall')
     # Plotting a bar graph
     fig, ax = plt.subplots()
     ax.bar( top_yearly['year'],  top_yearly['startup'], color='skyblue')
